@@ -415,3 +415,36 @@ nav {
     font-size: 1.5rem;
     color: var(--text-light);
 }
+
+.download__container {
+    display: grid;
+    gap: 2rem;
+    overflow: hidden;
+}
+
+.download__image img {
+    max-width: 500px;
+    margin-inline: auto;
+}
+
+.download__content .section__header {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.download__content p {
+    margin-bottom: 2rem;
+    color: var(--text-light);
+    text-align: center;
+}
+
+.download__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.download__links img {
+    max-width: 150px;
+}
